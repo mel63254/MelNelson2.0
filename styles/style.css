@@ -1,3 +1,14 @@
 p, li, h1 {
     color: blue;
   }
+  /*Just verifying this is how we comment*/
+  html {
+    font-size: 10px;
+    font-family: Helvetica, Arial, sans-serif;
+   }
+   
+   h1 { font-size: 2.6rem; }
+   
+   p { font-size: 1.4rem; }
+   
+   li { line-height: 1.5rem; }
