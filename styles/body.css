@@ -1,7 +1,7 @@
 body {
-  max-width: 700px;
+  max-width: 700px; /*tells the body max wideness*/
   margin: 0 auto;
-  background-color: rgb(8, 5, 0);
-  padding: 0 20px 20px 20px;
-  border: .3rem groove rgb(177, 101, 9);
+  background-color: rgb(8, 5, 0); /*adjusts the color of the background body*/
+  padding: 0 20px 20px 20px; /*moves the body*/
+  border: .3rem groove rgb(177, 101, 9); /*adds a boarder to the page*/
 }
