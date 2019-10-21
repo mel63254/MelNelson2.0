@@ -1,7 +1,7 @@
 body {
-  max-width: 650px;
+  max-width: 700px;
   margin: 0 auto;
-  background-color: #FF9500;
+  background-color: rgb(8, 5, 0);
   padding: 0 20px 20px 20px;
-  border: 5px solid black;
+  border: .3rem groove rgb(177, 101, 9);
 }
