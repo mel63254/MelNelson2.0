@@ -1,23 +1,20 @@
 p, li, h1 {
-    color: blue;
+  color: rgba(212, 25, 25, 0.884) ;
   }
   /*Just verifying this is how we comment*/
 
   html { font-size: 10px;
-    font-family: Helvetica, Arial, sans-serif; }
+    font-family: Helvetica, Arial, sans-serif;
+    color: rgba(212, 25, 25, 0.884) }
     
     header, main { padding: 2.5rem; }
     
     h1 { font-size: 2.6rem; }
-    
     p, li { font-size: 2.0rem; }
-    
     li { line-height: 1.5; }
     
     a:link { color: #00ff00; }
-    
     a:visited { color: #00ffff; }
     
     a:hover { color: #0000ff; background-color: #660d72; text-decoration: none; }
-    
     a:active { color: #2d94f5; background-color: #ffff00; text-decoration: none; }
