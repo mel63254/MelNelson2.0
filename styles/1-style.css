@@ -4,8 +4,13 @@ h1 {
 }
 /*Above instructs all h1 words/letters what size they should be, as well as where at on the screen*/
 p, li {
-  font-size: 2.0rem;    
+  font-size: 3.5rem;    
   line-height: 2;
   letter-spacing: 1px;
 }
 /*Above instructs all paragraph, and line words/letters what size they should be, as well as where at on the screen*/
+h3 {
+  font-size: 3.5rem;    
+  line-height: 2;
+  letter-spacing: 1px;
+}

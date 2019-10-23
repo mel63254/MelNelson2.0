@@ -1,4 +1,4 @@
-p, li, h1 {   /*validated like a boss!*/
+p, li, h1 {
   color: rgba(212, 25, 25, 0.884) ;
   }
   /*Just verifying this is how we comment*/
@@ -12,7 +12,7 @@ p, li, h1 {   /*validated like a boss!*/
     h1 { font-size: 2.6rem; }
     p, li { font-size: 2.0rem; }
     li { line-height: 1.5; }
-    /*Above instructs the web to adjust/adjust the paragraphs, lines, and headings 1 accordingy. */
+    /*Above instructs the web to adjust/adjust the paragraphs, lines, and headings 1 accordingy.*/
     a:link { color: #00ff00; }
     a:visited { color: #00ffff; }
     /*Above adjusts the color of a link before and after you click it.*/
