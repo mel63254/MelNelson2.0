@@ -1,11 +1,11 @@
 p, li, h1 {
-  color: rgba(25, 212, 34, 0.884) ;
+  color: rgba(212, 25, 25, 0.884) ;
   }
   /*Just verifying this is how we comment*/
 
   html { font-size: 10px;
     font-family: Helvetica, Arial, sans-serif;
-    color: rgba(57, 149, 235, 0.884) }
+    color: rgba(212, 25, 25, 0.884) }
     /*Above the html provide instructions to the web*/
     header, main { padding: 2.5rem; }
     /*Above moves the words off the edge of the page*/
@@ -13,9 +13,9 @@ p, li, h1 {
     p, li { font-size: 2.0rem; }
     li { line-height: 1.5; }
     /*Above instructs the web to adjust/adjust the paragraphs, lines, and headings 1 accordingy.*/
-    a:link { color: #da141e; }
-    a:visited { color: #00ffea; }
+    a:link { color: #00ff00; }
+    a:visited { color: #00ffff; }
     /*Above adjusts the color of a link before and after you click it.*/
-    a:hover { color: #00ff40; background-color: #c72205; text-decoration: none; }
-    a:active { color: #09edfd; background-color: #ff00ff; text-decoration: none; }
+    a:hover { color: #0000ff; background-color: #660d72; text-decoration: none; }
+    a:active { color: #2d94f5; background-color: #ffff00; text-decoration: none; }
     /*Above tells the link to change colors if you're hovering over it, also if you click it.*/
