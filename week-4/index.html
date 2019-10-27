@@ -8,15 +8,29 @@
         padding: 0;
         width: 200px;
         background-color: #f1f1f1;
+        border: 1px solid #555;
       li a {
         display: block;
         color: #ffa500;
         padding: 8px 16px;
-        text-decoration: none; }
+        text-decoration: none; 
+        }
+      li {
+        text-align: center;
+        border-bottom: 1px solid #555;
+        }
+      li:last-child {
+        border-bottom: none;
+        }
+      li a.active {
+        background-color: #4CAF50;
+        color: white;
+        }
       /* Change the link color on hover */
-      li a:hover {
+      li a:hover:not(.active) {
         background-color: #0000ff;
-        color: white; } 
+        color: white; 
+        } 
     </style>
       <meta charset="utf-8">
       <meta name="viewport" content="width=device-width" />
