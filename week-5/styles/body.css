@@ -1,7 +1,0 @@
-body {
-  max-width: 1000px; /*tells the body max wideness*/
-  margin: 3 auto;
-  background-color: rgb(8, 5, 0); /*adjusts the color of the background body*/
-  padding: 0 20px 20px 20px; /*moves the body*/
-  border: 2.0rem groove rgb(177, 101, 9); /*adds a boarder to the page*/
-}
