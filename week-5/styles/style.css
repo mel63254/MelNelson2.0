@@ -1,21 +1,50 @@
-p, li, h1 {
-  color: rgba(25, 212, 65, 0.884) ;
-  }
-  /*Just verifying this is how we comment*/
-
   html { font-size: 10px;
     font-family: Helvetica, Arial, sans-serif;
-    color: rgba(28, 25, 212, 0.884) }
-    /*Above the html provide instructions to the web*/
+    color: rgba(28, 25, 212, 0.884);
+    background-color: rgb(98, 170, 102);
     header, main { padding: 2.5rem; }
-    /*Above moves the words off the edge of the page*/
-    h1 { font-size: 2.6rem; }
-    p, li { font-size: 2.0rem; }
-    li { line-height: 1.5; }
-    /*Above instructs the web to adjust/adjust the paragraphs, lines, and headings 1 accordingy.*/
     a:link { color: #ff0000; }
     a:visited { color: #fffb00; }
-    /*Above adjusts the color of a link before and after you click it.*/
     a:hover { color: #ff00bf; background-color: #39da11; text-decoration: none; }
     a:active { color: #f52db2; background-color: #00ff37; text-decoration: none; }
-    /*Above tells the link to change colors if you're hovering over it, also if you click it.*/
+p, li {
+  font-size: 2.5rem;    
+  line-height: 2;
+  letter-spacing: 2px;
+  color: rgba(25, 212, 65, 0.884) ;
+}
+body {
+  max-width: 1000px; 
+  margin: 3 auto;
+  background-color: rgb(8, 5, 0); 
+  padding: 0 20px 20px 20px;
+  border: 2.0rem groove rgb(177, 101, 9);
+}
+img {
+  display: block;
+  margin: 0 auto;
+  width: 50%;
+}
+h1 {
+  font-size: 7.5rem;
+  text-align: center;
+  margin: 5;
+  padding: 10px 0;    
+  color: #00539F;
+  text-shadow: 4px 4px 2px rgb(245, 243, 243);
+}
+h2 {
+  font-size: 4.5rem;    
+  line-height: 2;
+  letter-spacing: 2px;
+}
+h3 {
+  font-size: 3.0rem;    
+  line-height: 2;
+  letter-spacing: 2px;
+}
+h4 {
+  font-size: 2.5rem;
+  line-height: 2;
+  letter-spacing: 2px;
+}
