@@ -50,3 +50,18 @@ h4 {
 }
         <nav>
         </nav>
+section#2009 Honda CBR600RR Phoenix Edition figure {
+float: right;
+padding-right: 2em;
+}
+section#2009 Honda CBR600RR Phoenix Edition figure img {
+width: 60%;
+}
+.intro {
+position: relative
+/* relative positioning means move it this far from where it would normally be */
+top: 20px;
+left: 20px;
+font-size: 1.5em;
+color: #333333;
+}
