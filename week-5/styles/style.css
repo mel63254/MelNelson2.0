@@ -81,4 +81,5 @@ footer {
 }
 div {
   border-right: double;
+  border-right-width: thick;
 }
