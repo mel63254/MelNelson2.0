@@ -61,12 +61,15 @@ nav {
   border-style: solid;
   border-width: 5px;
     }
-section#2009 Honda CBR600RR Phoenix Edition figure {
+section#porpoise figure {
 float: right;
 padding-right: 2em;
 }
-section#2009 Honda CBR600RR Phoenix Edition figure img {
+section#porpoise figure img {
 width: 60%;
+}
+section#after-image {
+clear: left;
 }
 .intro {
 position: relative
@@ -82,4 +85,7 @@ footer {
 div {
   border-right: double;
   border-right-width: thick;
+}
+.container {
+  column-width: 200px;
 }
