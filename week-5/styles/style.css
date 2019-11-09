@@ -88,13 +88,19 @@ div {
 }
 .container {
   column-width: 400px;
-  column-count: 3;
+  column-count: 2;
   column-gap: 20px;
   column-rule: 4px dotted rgb(79, 185, 227);
 }
+.content-box {
+  padding: 1.0em;
+  background: #ff7;
+  column-count: 3;
+  column-rule: inset 2px #33f;
+}
 column-count examplebody {  
-  width: 90%;  
-  max-width: 900px;  
+  min-width: 321px;  
+  max-width: 600px;  
   margin: 2em auto;  
   font: .9em/1.2 Arial, Helvetica, sans-serif;
 } 
