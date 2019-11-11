@@ -61,12 +61,13 @@ nav {
   border-style: solid;
   border-width: 5px;
     }
-section#porpoise figure {
-float: right;
-padding-right: 2em;
+section#phoenix-chillin-in-the-garage figure {
+  float: left;
+  width: 60%;
+  padding-right: 2em;
 }
-section#porpoise figure img {
-width: 60%;
+section#phoenix-chillin-in-the-garage figure img {
+  width: 100%;
 }
 section#after-image {
 clear: left;
