@@ -88,10 +88,10 @@ div {
   border-right: double;
   border-right-width: thick;
 }
-    
-@media screen and (max-width: 600px) { .bit-columns { column-count: 2; } } 
-@media screen and (max-width: 320px) { .bit-columns { column-count: unset; } }
-  
+.bit-columns { column-count: 3; }
+@media screen and (max-width: 600px) { .bit-columns { column-count: 2; } }
+@media screen and (max-width: 520px) { .bit-columns { column-count: unset; } }
+ 
 .container {
   column-width: 400px;
   column-count: 2;
