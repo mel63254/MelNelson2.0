@@ -1,32 +1,179 @@
+  
 <!DOCTYPE html>
-<html lang="en">
+<html>
   <head>
-    <style> 
-ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-}
-li {
-    float: left;
-}
-li a {
-    display: block;
-    padding: 8px;
-    background-color: #47476b;
-}
-    </style>
-      <meta charset="utf-8">
-      <meta name="viewport" content="width=device-width" />
-      <link href="styles/style.css" rel="stylesheet">
-      <link href="https://fonts.googleapis.com/css?family=Mansalva&display=swap" rel="stylesheet">
-      <link href="styles/background.css" rel="stylesheet">
-      <link href="styles/body.css" rel="stylesheet">
-      <link href="styles/margins.css" rel="stylesheet">
-      <link href="styles/center-images.css" rel="stylesheet">
-      <link href="styles/1-style.css" rel="stylesheet">
+    <meta charset="utf-8" />
+    <title>Columns — starting code</title>
     <style>
-        body {font-family: 'Mansalva', serif; font-size: 32px;}
+      html {
+        font-family: sans-serif;
+      }
+      body {
+        margin: 0;
+      }
+      header {
+        background: darkslateblue;
+        height: 100px;
+      }
+      h1 {
+        text-align: center;
+        color: white;
+        line-height: 100px;
+        margin: 0;
+      }
+      article {
+        padding: 10px;
+        margin: 10px;
+        background: goldenrod;
+        -webkit-column-break-inside: avoid; /* Chrome, Safari, Opera */
+        page-break-inside: avoid; /* Firefox */
+        break-inside: avoid; /* IE 10+ */
+      }
+      section {
+        columns: 300px 4;
+        column-gap: 20px;
+        column-rule: 1px dashed darkslateblue;
+      }
     </style>
     <title>Domain Name Research</title>
   </head>
+  
+  <body>
+    <header>Domain Name Report</header>
+    
+    <section>
+      <article>
+        <h2>What is an internet domain name?</h2>
+        
+        <p>
+          I found the answer to the above question on this <a href:"https://en.wikipedia.org/wiki/Domain_name">Wiki page</a> A 
+          domain name is an identification string that defines a realm of administrative autonomy, authority or control within 
+          the Internet. Domain names are used in various networking contexts and for application-specific naming and addressing 
+          purposes. In general, a domain name identifies a network domain, or it represents an Internet Protocol (IP) resource, 
+          such as a personal computer used to access the Internet, a server computer hosting a web site, or the web site itself 
+          or any other service communicated via the Internet.
+        </p>
+      </article>
+      
+      <article>
+        <h2>Why are domain names so important on the web?</h2>
+        <p>
+          I found the answer to the above question on <a href:"https://www.allbusiness.com/why-domain-names-are-so-important-681-1.html">All Business</a>
+          On a basic level, domain names are important because the Internet’s addressing scheme is not very effective without them. 
+          A domain name adds credibility to your small business, says you’re forward-thinking, and adds mobility to your Internet presence.
+          The right domain name can attract walk-in business. A domain name builds your brand.
+        </p>
+      </article>
+      
+      <article>
+        <h2>Why do domain names have to be unique?</h2>
+        
+        <p>
+          I found the answer to the above question on <a href:"https://www.relentlesshosting.com.au/why-domain-names-are-important/">Relentless Hosting</a>
+          For your website to have a unique identity, a domain name is essential. The domain name has to be unique to ensure that no 
+          two parties hold the same domain name as this can create a problem and will defeat the purpose of building your brand identity. 
+          Your domain name is not only your identity but your online business card as well.
+        </p>
+      </article>
+      
+      <article>
+        <h2>What does it mean to register a domain name?</h2>
+        
+        <p>
+          I found the answer to the above question on <a href:"https://www.webopedia.com/DidYouKnow/Internet/DomainRegister.asp">Webopedia</a>
+          The only way to register and start using a domain name is to use the services of a domain name registrar. The domain 
+          name industry is regulated and overseen by ICANN, the organization that is responsible for certifying companies as 
+          domain name registrars. Domain registration is the process of registering a domain name, which identifies one or 
+          more IP addresses with a name that is easier to remember and use in URLs to identify particular Web pages. The person 
+          or business that registers domain name is called the domain name registrant.
+        </p>
+      </article>
+      
+      <article>
+        <h2>If you wanted a domain name that is already taken, how could you get it?</h2>
+        
+        <p>
+          I found the answer to the above question on 
+          <a href:"https://www.nolo.com/legal-encyclopedia/what-do-if-domain-name-taken-29022.html">nolo.com</a>
+        <ul>
+          <li>1. Use .net, .org, .biz, .info</li>
+          <li>2. Change the Name Slightly</li>
+          <li>3. Buy the Name</li>
+          <li>4. Assert Your Rights If You Already Own the Trademark</li>
+        </ul>
+        <p/>
+      </article>
+      
+      
+        <h1>Information about getting your own domain name:</h1>
+      
+      <article>
+        <p>
+        <dt><b>Domain.com</b></dt>
+          
+            Domain.com is a popular domain registrar that offers and extensive range of tlds ( top level domains) 
+            and inexpensive hosting options along with useful tools for small businesses and blogs such as ssl certificates, 
+            web design, online marketing services and VPS hosting.
+
+         
+          <dt><b>Features</b></dt>
+          
+            Domain.com offer WordPress hosting, VPS hosting as well as cheaper shared hosting plans. With each of these plans, 
+            you will receive a free domain name as well as an SSL certificate, unlimited disk space and loads of marketing tools 
+            to help you build traffic to your site.
+            
+            <dt><b>Pricing</b></dt>
+          
+            It’ll cost you just $9.99 a year to register a domain name at Domain.com. Domain name privacy will cost you an 
+            extra $8.99 a year.
+          </p>
+      </article>
+      
+      <article>
+        <p>
+          <dt><b>Bluehost</b></dt>
+          
+          Bluehost is well known as a recommended WordPress hosting provider. They’re typically regarded as one of the best 
+          hosts for those just getting started online. But, they also let you register domain names as well. If you’re planning 
+          on purchasing hosting at the same time you register your domain name, then Bluehost might be a good fit for you.
+          
+          <dt><b>Features & Pricing</b></dt>
+          
+          Bluehost offers high quality hosting at low prices. You can get your hands on a shared hosting plan for just $2.95 
+          per month + email + a free domain. Other hosting plans include WordPress, VPS, dedicated, and reseller hosting.
+        </p>
+      </article>
+      
+      <article>
+        <p>
+          <dt><b>HostGator</b></dt>
+          
+          HostGator is a great place to register domains, no matter where you’re at on your online journey. Beyond registering 
+          domains they’re mostly known for their hosting. They also offer low-priced hosting and domain registration bundles for 
+          as low as $3 a month, which is a total steal. Hosting, Email & a Free Domain for $3 p/m.
+          
+          If you do purchase a bundle package and decide to get hosting as well, then you’ll be happy to hear that they have a 
+          99.99% uptime, meaning your website will very rarely, if ever, go offline.
+          
+          Plus, the currently host over 9 million websites on their platform. HostGator provides a solid foundation for you to 
+          start your online journey.
+        </p>
+      </article>
+      
+      <article>
+        <p>
+          <dt><b>Namecheap</b></dt>
+          
+          Namecheap is a solid choice for registering your domain name. Plus, their site is incredibly intuitive and easy to use, 
+          especially on their domain management pages, which can be incredibly helpful. They offer reasonable priced domains, and 
+          have a free DNS service, and WHOIS protection. They also offer SSL encryption, for those looking to beef up the security 
+          of their domains.
+          
+          <dt><b>Pricing<?b></dt>
+          
+          Registering a domain with Namecheap normally costs $10.69/year, but for a limited time only you can get a .com for $8.88. 
+          That comes with a 1 year’s free WHOISGuard. Plus, if you run into any issues getting your domain setup they have a ton of 
+          easy to follow tutorial videos.
+        </p>
+      </article>
+  
