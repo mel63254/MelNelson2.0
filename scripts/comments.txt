@@ -1,3 +1,5 @@
 /*
 Everything in between is a comment.
+More specifically a multiline comment.
 */
+// is a single line comment. This literally took a month and a half to sink in.
